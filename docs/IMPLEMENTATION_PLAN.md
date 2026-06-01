@@ -306,7 +306,7 @@ For deployment, the same keys are set in the host platform's dashboard with prod
 ## 9. Submission Checklist
 
 - [ ] GitHub repo with both `frontend/` and `backend/`
-- [ ] Docker Hub image link for the backend image
+- [x] Docker Hub image link for the backend image: [amannc2721/inventory-backend](https://hub.docker.com/r/amannc2721/inventory-backend)
 - [ ] Live frontend URL (Vercel/Netlify) — publicly accessible
 - [ ] Live backend URL (Render/Railway/Fly) — `/docs` reachable
 - [ ] Frontend ↔ backend communicate (CORS + env vars correct)

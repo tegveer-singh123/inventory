@@ -298,6 +298,18 @@ inventory/
 3. Add a rewrite rule so all paths (`/*`) serve `index.html` for client-side routing.
 
 ### Docker Hub
-1. Build and tag the backend image: `docker build -t yourname/inventory-backend:latest ./backend`
-2. Push: `docker push yourname/inventory-backend:latest`
+
+The backend image is published at:
+* **Docker Hub Repository**: [amannc2721/inventory-backend](https://hub.docker.com/r/amannc2721/inventory-backend)
+* **Image**: `amannc2721/inventory-backend:latest`
+
+#### Commands:
+1. Build and tag the backend image:
+   ```bash
+   docker build -t amannc2721/inventory-backend:latest ./backend
+   ```
+2. Push:
+   ```bash
+   docker push amannc2721/inventory-backend:latest
+   ```
 3. Update `docker-compose.yml` to reference the published image instead of the local build context.
